@@ -1,7 +1,0 @@
-28. Stream API
-• Objective: Process collections using streams.
-• Task: Filter and display even numbers from a list.
-• Instructions:
-o Create a List of integers.
-o Use the Stream API to filter even numbers.
-o Collect and display the result.

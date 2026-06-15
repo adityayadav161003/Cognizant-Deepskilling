@@ -1,6 +1,0 @@
-8. Operator Precedence
-• Objective: Explore how Java evaluates expressions.
-• Task: Evaluate and display the result of complex expressions.
-• Instructions:
-o Write expressions combining multiple operators, e.g., int result = 10 + 5 * 2;.
-o Display the result and explain the order of operations.

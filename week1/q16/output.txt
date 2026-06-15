@@ -1,2 +1,0 @@
-Enter a string: Cleaned string: "amanaplanacanalpanama"
-Result: The string is a palindrome.

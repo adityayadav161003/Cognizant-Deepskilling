@@ -1,3 +1,0 @@
-Calling Animal.makeSound(): Animal makes a generic sound
-Calling Dog.makeSound(): Bark
-Calling Polymorphic Animal.makeSound() (assigned to a Dog instance): Bark

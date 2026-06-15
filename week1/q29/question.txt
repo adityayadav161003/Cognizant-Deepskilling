@@ -1,7 +1,0 @@
-29. Records
-• Objective: Use the record keyword for immutable data structures (Java 16+).
-• Task: Create a record to represent a Person with name and age.
-• Instructions:
-o Define a record named Person.
-o Create instances and print them.
-o Use records in a List and filter based on age using Streams.

@@ -1,7 +1,0 @@
-36. HTTP Client API (Java 11+)
-• Objective: Make HTTP requests from Java.
-• Task: Fetch data from a public API (e.g., GitHub).
-• Instructions:
-o Use HttpClient and HttpRequest.
-o Print the response status and body.
-o Optional: Parse JSON response using Jackson or Gson.

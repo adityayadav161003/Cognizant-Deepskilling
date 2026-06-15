@@ -1,5 +1,0 @@
-Integer value: 42
-Float value: 3.14
-Double value: 2.7182818284
-Character value: J
-Boolean value: true

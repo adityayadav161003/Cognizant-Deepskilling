@@ -1,8 +1,0 @@
-16. Palindrome Checker
-• Objective: Combine string manipulation and conditional logic.
-• Task: Check if a string is a palindrome.
-• Instructions:
-o Prompt the user for a string.
-o Remove any non-alphanumeric characters and convert to lowercase.
-o Check if the string reads the same forwards and backwards.
-o Display the result.

@@ -1,2 +1,0 @@
-Enter a string to reverse: Reversed string (using StringBuilder): ytivargitna
-Reversed string (using manual loop): ytivargitna

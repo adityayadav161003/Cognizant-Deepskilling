@@ -1,6 +1,0 @@
-Original double value: 99.99
-Casted int value (narrowing): 99
-
-Original int value: 42
-Casted double value (widening): 42.0
-Explicitly casted double value: 42.0

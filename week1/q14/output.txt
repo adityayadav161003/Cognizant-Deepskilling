@@ -1,3 +1,0 @@
-Enter the number of elements: Enter 3 elements:
-Element 1: Element 2: Element 3: Sum of elements: 60.00
-Average of elements: 20.00

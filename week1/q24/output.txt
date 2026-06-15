@@ -1,8 +1,0 @@
-=== Student Names Manager ===
-Type names to add them to the list. Type 'done' to finish.
-Enter student name: Added: Alice
-Enter student name: Added: Bob
-Enter student name: 
---- All Student Names Entered ---
-1. Alice
-2. Bob

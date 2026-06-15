@@ -1,7 +1,0 @@
-2. Simple Calculator
-• Objective: Practice arithmetic operations and user input.
-• Task: Develop a calculator that performs addition, subtraction, multiplication, and division.
-• Instructions:
-o Prompt the user to enter two numbers.
-o Ask the user to choose an operation.
-o Display the result of the operation.

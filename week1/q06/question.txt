@@ -1,7 +1,0 @@
-6. Data Type Demonstration
-• Objective: Understand Java's primitive data types.
-• Task: Declare variables of different primitive types and display their values.
-• Instructions:
-o Declare variables of types int, float, double, char, and boolean.
-o Assign appropriate values to each.
-o Use System.out.println() to display each variable.

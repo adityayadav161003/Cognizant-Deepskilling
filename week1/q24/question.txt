@@ -1,7 +1,0 @@
-24. ArrayList Example
-• Objective: Use dynamic arrays.
-• Task: Manage a list of student names.
-• Instructions:
-o Create an ArrayList to store names.
-o Allow the user to add names to the list.
-o Display all names entered.

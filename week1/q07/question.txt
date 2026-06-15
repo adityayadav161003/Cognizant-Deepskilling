@@ -1,7 +1,0 @@
-7. Type Casting Example
-• Objective: Practice type casting between different data types.
-• Task: Convert a double to an int and vice versa.
-• Instructions:
-o Declare a double variable with a decimal value.
-o Cast it to an int and display the result.
-o Declare an int variable and cast it to a double, then display.

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geolocation - Event Portal</title>
+    <script>
+        function findEvents() {
+            let output = document.getElementById("geoOutput");
+            if (!navigator.geolocation) {
+                output.innerText = "Geolocation is not supported.";
+                return;
+            }
+            output.innerText = "Locating...";
+            navigator.geolocation.getCurrentPosition(
+                function(pos) {
+                    output.innerText = "Latitude: " + pos.coords.latitude + "\nLongitude: " + pos.coords.longitude;
+                },
+                function(err) {
+                    output.innerText = "Error: " + err.message;
+                },
+                { enableHighAccuracy: true, timeout: 5000 }
+            );
+        }
+    </script>
+</head>
+<body>
+    <h2>Find Nearby Events</h2>
+    <button onclick="findEvents()">Find Nearby Events</button>
+    <pre id="geoOutput" style="margin-top: 15px; font-weight: bold;"></pre>
+</body>
+</html>

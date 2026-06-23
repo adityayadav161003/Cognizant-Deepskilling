@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - Event Portal</title>
+</head>
+<body>
+    <form onsubmit="event.preventDefault(); document.getElementById('regOutput').value = 'Registration Submitted for ' + this.elements.name.value;">
+        <h2>Event Registration</h2>
+        <div>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter full name" autofocus>
+        </div>
+        <div>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="name@example.com">
+        </div>
+        <div>
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div>
+            <label for="event">Event Type:</label>
+            <select id="event" name="event">
+                <option value="tech">Tech Meetup</option>
+                <option value="art">Art Exhibition</option>
+                <option value="sports">Sports Day</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Comments:</label>
+            <textarea id="message" name="message" rows="3" placeholder="Any special requests?"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+        <div style="margin-top: 15px;">
+            <output id="regOutput"></output>
+        </div>
+    </form>
+</body>
+</html>

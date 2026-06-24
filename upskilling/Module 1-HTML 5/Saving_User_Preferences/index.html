@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preferences - Event Portal</title>
+    <script>
+        function savePref() {
+            let select = document.getElementById("prefEvent");
+            localStorage.setItem("preferredEvent", select.value);
+            sessionStorage.setItem("sessionTimestamp", new Date().toISOString());
+            alert("Preferences Saved!");
+        }
+        function loadPref() {
+            let pref = localStorage.getItem("preferredEvent");
+            if (pref) {
+                document.getElementById("prefEvent").value = pref;
+                document.getElementById("info").innerText = "Welcome back! Pre-selected preference: " + pref;
+            }
+        }
+        function clearPref() {
+            localStorage.clear();
+            sessionStorage.clear();
+            document.getElementById("prefEvent").value = "";
+            document.getElementById("info").innerText = "Preferences Cleared.";
+        }
+        window.onload = loadPref;
+    </script>
+</head>
+<body>
+    <h2>User Preferences</h2>
+    <select id="prefEvent" onchange="savePref()">
+        <option value="">Select preferred event</option>
+        <option value="Music">Music Festival</option>
+        <option value="Tech">Tech Workshop</option>
+    </select>
+    <button onclick="clearPref()">Clear Preferences</button>
+    <p id="info" style="color: blue; font-weight: bold;"></p>
+</body>
+</html>

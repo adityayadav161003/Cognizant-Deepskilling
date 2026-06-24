@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Invite - Event Portal</title>
+    <script>
+        window.onbeforeunload = function() {
+            return "Are you sure you want to leave?";
+        };
+        function videoReady() {
+            document.getElementById("status").innerText = "Video ready to play!";
+        }
+    </script>
+</head>
+<body>
+    <h2>Exclusive Video Invite</h2>
+    <video width="320" height="240" controls oncanplay="videoReady()">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    </video>
+    <p id="status" style="font-weight: bold; color: green;"></p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+=== ExecutorService and Callable Concurrency Demo ===
+Thread pool initialized with 3 threads.
+
+Submitting 5 tasks to calculate squares of numbers 1 through 5...
+
+Retrieving results from Futures (blocking operations)...
+pool-1-thread-1 calculated square of 1
+pool-1-thread-3 calculated square of 3
+pool-1-thread-2 calculated square of 2
+Task 1 result: 1
+Task 2 result: 4
+Task 3 result: 9
+pool-1-thread-2 calculated square of 5
+pool-1-thread-3 calculated square of 4
+Task 4 result: 16
+Task 5 result: 25
+
+Sum of all squares: 55
+
+Shutting down the executor service...
+Executor service shut down.

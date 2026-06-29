@@ -1,0 +1,3 @@
+Car Details: 2022 Toyota Camry
+Car Details: 2024 Tesla Model 3
+Car Details: 1969 Ford Mustang

@@ -1,0 +1,9 @@
+=== Basic JDBC Connection Demo (SQLite) ===
+Successfully connected to the database.
+Created table 'students'.
+Inserted sample student records.
+
+Executing SELECT query and retrieving results:
+Student ID: 1, Name: Alice, Grade: A
+Student ID: 2, Name: Bob, Grade: B
+Student ID: 3, Name: Charlie, Grade: C

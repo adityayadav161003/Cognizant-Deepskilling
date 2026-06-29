@@ -1,0 +1,2 @@
+=== Division Handler ===
+Enter the first integer (numerator): Enter the second integer (denominator): Error caught: ArithmeticException - Division by zero is not allowed.

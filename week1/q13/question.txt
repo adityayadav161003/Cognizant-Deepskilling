@@ -1,0 +1,7 @@
+13. Recursive Fibonacci
+• Objective: Implement recursion.
+• Task: Calculate the nth Fibonacci number using recursion.
+• Instructions:
+o Prompt the user for a positive integer n.
+o Define a recursive method fibonacci(int n) that returns the nth Fibonacci number.
+o Display the result.

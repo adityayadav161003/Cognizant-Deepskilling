@@ -1,0 +1,7 @@
+26. Thread Creation
+• Objective: Implement multithreading.
+• Task: Create and run two threads that print messages.
+• Instructions:
+o Define a class that extends Thread or implements Runnable.
+o In the run() method, print a message multiple times.
+o Start both threads and observe the output.

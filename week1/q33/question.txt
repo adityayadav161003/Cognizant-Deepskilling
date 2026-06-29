@@ -1,0 +1,7 @@
+33. Transaction Handling in JDBC
+• Objective: Use JDBC transactions.
+• Task: Simulate a money transfer between two accounts.
+• Instructions:
+o Create accounts table with balances.
+o Implement a transfer method with Connection.setAutoCommit(false).
+o Commit if both debit and credit succeed, else rollback.

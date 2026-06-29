@@ -1,0 +1,24 @@
+# Ignore the questions PDF
+/Module 3-Core Java.pdf
+
+# Ignore the external libraries (libs folder)
+/week1/libs/
+
+# Ignore the PowerShell verification test runner script
+/week1/verify_all.ps1
+
+# Ignore compiled class files
+**/*.class
+
+# Ignore SQLite databases
+**/*.db
+**/*.db-journal
+
+# Ignore IDE files and settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

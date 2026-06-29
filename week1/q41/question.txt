@@ -1,0 +1,6 @@
+41. Executor Service and Callable
+• Objective: Use concurrency utilities.
+• Task: Execute multiple Callable tasks that return results.
+• Instructions:
+o Use Executors.newFixedThreadPool() and submit() to execute callables.
+o Collect results using Future.get().

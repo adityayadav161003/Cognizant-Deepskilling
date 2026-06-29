@@ -1,0 +1,11 @@
+=== TCP Client-Server Chat Simulation ===
+No arguments provided. Running automated thread-based simulation.
+[Sim-Client] Connected to server.
+[Sim-Client] Server says: "Hello Client! I am the automated test server."
+[Sim-Client] Sending: "Ping"
+[Sim-Server] Received: "Ping"
+[Sim-Client] Server replied: "I received your message: Ping"
+[Sim-Client] Sending: "Close Connection"
+[Sim-Server] Received: "Close Connection"
+[Sim-Client] Server final reply: "Goodbye!"
+[Simulation] Complete.

@@ -1,0 +1,6 @@
+21. Custom Exception
+• Objective: Create and use custom exceptions.
+• Task: Define a custom exception InvalidAgeException.
+• Instructions:
+o Throw InvalidAgeException if the user's age is less than 18.
+o Catch the exception and display a message.

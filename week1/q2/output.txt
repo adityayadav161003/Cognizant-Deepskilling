@@ -1,0 +1,2 @@
+=== Simple Calculator ===
+Enter first number: Enter second number: Choose an operation (+, -, *, /): Result: 15.00 / 5.00 = 3.00

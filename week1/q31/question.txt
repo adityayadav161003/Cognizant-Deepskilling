@@ -1,0 +1,6 @@
+31. Basic JDBC Connection
+• Objective: Connect Java with a relational database.
+• Task: Connect to a local MySQL/SQLite database and retrieve data.
+• Instructions:
+o Set up a database with a students table.
+o Write code to load the JDBC driver, create a connection, execute a SELECT query, and print results.

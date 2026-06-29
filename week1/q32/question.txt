@@ -1,0 +1,7 @@
+32. Insert and Update Operations in JDBC
+• Objective: Perform insert/update SQL queries from Java.
+• Task: Add and modify student data using JDBC.
+• Instructions:
+o Create a StudentDAO class.
+o Implement methods to insert new records and update student details.
+o Use PreparedStatement for parameterized queries.

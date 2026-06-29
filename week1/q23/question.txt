@@ -1,0 +1,6 @@
+23. File Reading
+• Objective: Read data from a file.
+• Task: Read and display the contents of output.txt.
+• Instructions:
+o Open output.txt for reading.
+o Read each line and display it on the console.

@@ -1,0 +1,8 @@
+10. Number Guessing Game
+• Objective: Implement loops and conditional logic.
+• Task: Create a game where the user guesses a randomly generated number.
+• Instructions:
+o Generate a random number between 1 and 100.
+o Prompt the user to guess the number.
+o Provide feedback if the guess is too high or too low.
+o Continue until the user guesses correctly.

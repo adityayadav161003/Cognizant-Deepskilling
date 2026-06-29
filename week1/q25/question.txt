@@ -1,0 +1,7 @@
+25. HashMap Example
+• Objective: Use key-value pairs.
+• Task: Map student IDs to names.
+• Instructions:
+o Create a HashMap with Integer keys and String values.
+o Allow the user to add entries.
+o Retrieve and display a name based on an entered ID.

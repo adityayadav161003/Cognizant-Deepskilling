@@ -1,0 +1,4 @@
+Original list: [Banana, Apple, Mango, Orange, Pineapple, Cherry]
+Sorted alphabetically: [Apple, Banana, Cherry, Mango, Orange, Pineapple]
+Sorted by string length: [Apple, Mango, Banana, Cherry, Orange, Pineapple]
+Sorted in reverse alphabetical order: [Pineapple, Orange, Mango, Cherry, Banana, Apple]

@@ -137,10 +137,10 @@ foreach ($t in $tests) {
     $className = $t.ClassName
     $javaFileName = "$className.java"
     
-    # Determine the folder for the class (e.g. Q02 -> q2)
+    # Determine the folder for the class (e.g. Q02 -> q02)
     if ($className -match "^Q(\d+)_(.+)$") {
-        $num = [int]$Matches[1]
-        $folder = "q$num"
+        $numStr = $Matches[1]
+        $folder = "q$numStr"
     } else {
         Write-Host "Error parsing folder for $className" -ForegroundColor Red
         continue
@@ -149,6 +149,9 @@ foreach ($t in $tests) {
     # Compile inside subfolder
     $compiled = Compile-JavaFile $folder $javaFileName $t.CP
     if ($compiled) {
+        if ($folder -eq "q23") {
+            Copy-Item -Path "q22/output.txt" -Destination "q23/output.txt" -Force -ErrorAction SilentlyContinue
+        }
         # Run inside subfolder
         $runResult = Run-JavaProgram $folder $className $t.Input $t.Expected $t.CP
         if ($runResult) {

@@ -1,1 +1,1 @@
-Enter a string to write to output.txt: Success: Data has been successfully written to output.txt.
+Hello File System!

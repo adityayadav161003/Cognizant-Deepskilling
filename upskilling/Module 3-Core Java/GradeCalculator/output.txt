@@ -1,0 +1,1 @@
+Enter marks obtained (out of 100): Assigned Grade: B

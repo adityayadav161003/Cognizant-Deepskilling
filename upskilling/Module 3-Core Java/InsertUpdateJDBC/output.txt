@@ -1,0 +1,11 @@
+=== JDBC Insert and Update Operations Demo ===
+Inserting new students...
+Current Students Database Entries:
+  ID: 1, Name: David, Grade: B
+  ID: 2, Name: Emma, Grade: A
+
+Updating student with ID 1 to 'David Smith' and grade 'A'...
+Update successful!
+Current Students Database Entries:
+  ID: 1, Name: David Smith, Grade: A
+  ID: 2, Name: Emma, Grade: A

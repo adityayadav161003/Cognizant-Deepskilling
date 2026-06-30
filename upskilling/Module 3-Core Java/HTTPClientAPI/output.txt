@@ -1,0 +1,28 @@
+=== HTTP Client API (Java 11+) ===
+Sending GET request to: https://httpbin.org/get
+
+--- Response Status Code ---
+Status: 200
+
+--- Response Headers ---
+:status: [200]
+access-control-allow-credentials: [true]
+access-control-allow-origin: [*]
+content-length: [278]
+content-type: [application/json]
+date: [Mon, 29 Jun 2026 03:38:04 GMT]
+server: [gunicorn/19.9.0]
+
+--- Response Body ---
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "application/json", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Java HttpClient Demo", 
+    "X-Amzn-Trace-Id": "Root=1-6a41e89c-116767c2154d8a5964dca7a4"
+  }, 
+  "origin": "45.127.227.167", 
+  "url": "https://httpbin.org/get"
+}
+

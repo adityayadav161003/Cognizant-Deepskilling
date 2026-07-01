@@ -1,0 +1,11 @@
+Enter a number for its multiplication table: Multiplication Table for 7.0:
+7.00 x 1 = 7.00
+7.00 x 2 = 14.00
+7.00 x 3 = 21.00
+7.00 x 4 = 28.00
+7.00 x 5 = 35.00
+7.00 x 6 = 42.00
+7.00 x 7 = 49.00
+7.00 x 8 = 56.00
+7.00 x 9 = 63.00
+7.00 x 10 = 70.00

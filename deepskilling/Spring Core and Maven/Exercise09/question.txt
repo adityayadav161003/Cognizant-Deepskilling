@@ -1,0 +1,16 @@
+Exercise 9: Creating a Spring Boot Application
+Scenario:
+You need to create a Spring Boot application for the library management system to simplify configuration and deployment.
+Steps:
+Create a Spring Boot Project:
+Use Spring Initializr to create a new Spring Boot project named LibraryManagement.
+Add Dependencies:
+Include dependencies for Spring Web, Spring Data JPA, and H2 Database.
+Create Application Properties:
+Configure database connection properties in application.properties.
+Define Entities and Repositories:
+Create Book entity and BookRepository interface.
+Create a REST Controller:
+Create a BookController class to handle CRUD operations.
+Run the Application:
+Run the Spring Boot application and test the REST endpoints.
